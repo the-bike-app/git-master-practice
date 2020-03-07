@@ -1,0 +1,28 @@
+{
+  "name": "git-express-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svetlasyrimis/git-express-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/svetlasyrimis/git-express-react/issues"
+  },
+  "homepage": "https://github.com/svetlasyrimis/git-express-react#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "faker": "^4.1.0",
+    "mongoose": "^5.9.3",
+    "morgan": "^1.9.1",
+    "nodemon": "^2.0.2"
+  }
+}
