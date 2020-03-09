@@ -13,11 +13,13 @@ Once settled in your groups decide who will be the **Git Czar**.
 ### Git Czar
 
 
-
 1. Duplicate the original repo
+ 
   1.1. Clone down the original repo, without **forking it**. 
-  1.2. Create a new repository on your GitHub account
-  1.3. Set the remote of the cloned repo to your new repo 
+  
+  1.2. Create a new repository on your GitHub account.
+  
+  1.3. Set(or change) the remote of the cloned repo to your new repo.
   
   `git remote set-url https://github.com/your-username/name-of-the-new-repo`
   
@@ -115,7 +117,8 @@ export default class App extends Component {
 
 **OR**
                 
-    
+* `git checkout dev` 
+* `git pull origin dev` - update the local branch `dev`   
 *  `git checkout master`
 * `git merge dev`
 * `git push origin master` - to update the remote branch `master`
@@ -170,7 +173,7 @@ If you staged files for commit but you weren't ready to commit them, simply `git
 **Instead:**  
 `git revert <unwanted commit hash>` 
 
-In this case, the commit hash is `b7c053d`. So, `git revert b7c053d` will undo/revert the that commit by creating a new **commit**. This will  bring the VIM interface which looks like that: 
+In this case, the commit hash is `b7c053d`. So, `git revert b7c053d` will undo/revert that commit by creating a new **commit**. This will bring the VIM interface which looks like that: 
 
 ```
 Revert "new.js"
