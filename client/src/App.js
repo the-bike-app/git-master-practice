@@ -18,6 +18,8 @@ function App() {
         >
           Learn React
         </a>
+
+        <h1>Hello NYC, here is a cool bike app for you!</h1>
       </header>
     </div>
   );
